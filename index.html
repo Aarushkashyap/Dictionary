@@ -11,6 +11,7 @@
 <title>Document</title>
 </head>
 <body>
+    <audio id="sound"></audio>
     <div class="container">
         <div class="search-box">
             <input 
@@ -20,24 +21,10 @@
             />
             <button id="search-btn">Search</button>
         </div>
-        <div class="result">
-            <div class="word">
-                <h3>Sample</h3>
-                <button>
-                    <i class="fa-solid fa-volume-high"></i>
-                </button>
-            </div>
-            <div class="details">
-                <p>pos</p>
-                <p>/Sample/</p>
-            </div>
-            <p class="word-meaning">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, inventore.
-            </p>
-            <p class="word-example">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, rem!
-            </p>
+        <div class="result" id="result">
         </div>
     </div>
+    <!-- script -->
+    <script src="script.js"></script>
 </body>
 </html>
