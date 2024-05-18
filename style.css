@@ -23,7 +23,49 @@ body{
 }
 
 .search-box{
-    width: 100px;
+    width: 300px;
     display: flex;
     justify-content: space-between;
+}
+
+.search-box input {
+        padding: 5px;
+        width: 70%;
+        border: none;
+        outline: none;
+        border-bottom: 3px solid #BC8F8F;
+        font-size: 16px;
+}
+
+.search-box button{
+    padding: 15px 0;
+    width: 25%;
+    background-color: #BC8F8F;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.result{
+    position: relative;
+}
+
+.result h3 {
+    font-size: 30px;
+    color: #1f194c;
+}
+
+.result .word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.result button {
+    background-color: transparent;
+    color: #BC8F8F;
+    border: none;
+    outline: none;
+    font-size: 18px;
 }
